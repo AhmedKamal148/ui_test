@@ -1,0 +1,362 @@
+/* Start Global */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+::selection {
+  color: #eb6282 !important;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  /* 1rem = 10px, 10px/16px = 62.5% */
+  @media only screen and (max-width: 69.75em) {
+    font-size: 50%;
+  }
+
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../images/aaaa.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* End Global */
+
+/* -------------------------------------------------------------------------- */
+/*                                Start Navbar                                */
+/* -------------------------------------------------------------------------- */
+.navbar .container-fluid::after {
+  content: "";
+  position: absolute;
+  left: 11px;
+  bottom: -4px;
+  width: 98%;
+  height: 1px;
+  background-color: #a9a9a94a;
+}
+
+.navbar .navbar-brand {
+  color: #eb6282 !important;
+  font-size: 2rem !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 1.2rem;
+  color: #000;
+  text-transform: capitalize;
+  transition: color 0.3s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #eb6282;
+}
+
+.navbar .navbar-collapse .form-group input {
+  font-size: 1.2rem;
+  box-shadow: 0 0 0 0 !important;
+  border-color: #a9a9a9;
+  background-color: #e9e9e9;
+}
+
+.navbar .navbar-collapse .form-group .fa-search {
+  position: absolute;
+  right: 10px;
+  color: #a9a9a9;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar .navbar-collapse .form-group .fa-search:hover {
+  color: #eb6282 !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                End Navbar                                  */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                Start Header                                */
+/* -------------------------------------------------------------------------- */
+
+header header h1 {
+  font-size: 4rem;
+}
+
+header article form input,
+header article form select,
+header article form select option {
+  font-size: 1.2rem;
+  box-shadow: 0 0 0 0 !important;
+  border-bottom: 1px solid #eb6282;
+  border-color: #a9a9a9;
+  background-color: #e9e9e9 !important;
+  font-weight: bold;
+}
+
+header article form select option {
+  background: #fff !important;
+
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                Start article                               */
+/* -------------------------------------------------------------------------- */
+
+header article form .form-group_submit button {
+  background: rgb(235, 98, 130);
+  background: linear-gradient(180deg,
+      rgba(235, 98, 130, 1) 50%,
+      rgba(250, 144, 144, 1) 100%);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                End article                                 */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                Start Main                                  */
+/* -------------------------------------------------------------------------- */
+header main h1 {
+  font-size: 3.3rem;
+  position: relative;
+}
+
+header main h1::after {
+  content: "Ranch";
+  position: absolute;
+  top: 30px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                End Main                                    */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                End Header                                  */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                 Start Modal                                */
+/* -------------------------------------------------------------------------- */
+.modal .modal-content {
+  background: rgb(221, 236, 209);
+  background: linear-gradient(171deg, rgba(221, 236, 209, 1) 0%, rgba(253, 233, 197, 1) 97%);
+}
+
+.modal .modal-content .modal-header h1,
+.modal .modal-content .modal-header button {
+  color: #eb6282;
+}
+
+.modal .modal-content .modal-header button {
+  font-size: 30px;
+}
+
+.modal .modal-content .modal-body h1,
+.modal .modal-content .modal-body h2 {
+  color: #eb6282;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 End Modal                                  */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 Start_Media                                */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 1300px) {
+  header main button {
+    display: none !important;
+  }
+
+}
+
+@media (max-width: 1100px) {
+  header header h1 {
+    font-size: 3.2rem;
+  }
+
+  header main h1 {
+    font-size: 2.8rem !important;
+  }
+
+  header main img {
+    width: 55% !important;
+  }
+
+  header article form .form-group input {
+    width: 70% !important;
+  }
+
+  header article form select {
+    font-size: 1rem;
+  }
+
+  header article form .form-group_submit {
+    flex-direction: column;
+  }
+
+  header article form .form-group_submit input {
+    width: 50% !important;
+  }
+
+  header article form .form-group_submit button {
+    width: 40%;
+
+  }
+
+  header main button {
+    display: none !important;
+  }
+
+
+}
+
+@media (max-width: 992px) {
+  header header h1 {
+    font-size: 2.5rem;
+  }
+
+
+
+  header article form .form-group_submit button {
+    font-size: 13px;
+
+  }
+
+  header main h1 {
+    font-size: 2.2rem !important;
+  }
+
+  header main button {
+    display: none !important;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+  body {
+    background-image: url(../images/Inside-mobile.png);
+  }
+
+  header header {
+    text-align: center;
+  }
+
+  header article form .form-group {
+    align-items: center;
+    justify-content: center;
+  }
+
+  header article form .form-group:nth-of-type(2) {
+    margin-left: 7% !important;
+    width: 68% !important;
+
+
+  }
+
+  header article form .form-group_submit {
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header article form .form-group_submit input {
+    width: 70% !important;
+    margin-right: 0px !important;
+  }
+
+  header article form .form-group_submit button {
+    display: none !important;
+  }
+
+  header main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  header main h1 {
+    margin-bottom: 3.5rem !important;
+  }
+
+  header main h1::after {
+    right: 30%;
+
+  }
+
+  header main button {
+    display: flex !important;
+    background: rgb(235, 98, 130);
+    background: linear-gradient(180deg,
+        rgba(235, 98, 130, 1) 50%,
+        rgba(250, 144, 144, 1) 100%);
+    border-radius: 5px;
+    color: #fff !important;
+    font-size: 16px;
+    transition: all 0.5s;
+    margin: .5rem 0;
+  }
+
+  header main button:hover {
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 600px) {
+
+
+  header article form .form-group:nth-of-type(2) {
+    margin-left: 12% !important;
+    width: 74% !important;
+
+
+  }
+
+  header article form select {
+    font-size: .89rem;
+  }
+
+
+}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 End_Media                                  */
+/* -------------------------------------------------------------------------- */

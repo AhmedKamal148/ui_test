@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index_style.css">
+</head>
+
+<body>
+
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              Start Navbar                               -->
+    <!-- ----------------------------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent  ">
+        <div class="container-fluid position-relative">
+            <a class="navbar-brand font-weight-bold mr-5" href="#">Ziri</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link font-weight-bold" href="#">Find Your home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#">sell your home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#">My accounts </a>
+                    </li>
+
+                </ul>
+                <div class="form-group w-25 d-flex align-items-center position-relative">
+                    <input type="serach" class="form-control font-weight-bold py-4" placeholder="Quick Search">
+                    <i class="fas fa-search fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              End Navbar                                 -->
+    <!-- ----------------------------------------------------------------------- -->
+
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              Start Header                               -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <header class="mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <header class="mt-5 ml-3">
+                        <h1 class="text-capitalize  font-weight-bold">Looking For a home ?</h1>
+                        <h1 class="text-capitalize  font-weight-bold">you are in the right place. </h1>
+                    </header>
+                </div>
+            </div>
+
+            <!-- ----------------------------------------------------------------------- -->
+            <!--                               Second_Row                                -->
+            <!-- ----------------------------------------------------------------------- -->
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <article>
+                        <form action="">
+                            <div class="form-group  w-100 d-flex flex-column">
+                                <input required type="text" class="form-control font-weight-bold py-4 mb-4 w-75"
+                                    placeholder="What is your name?">
+                                <input required type="email" class="form-control font-weight-bold py-4 mb-4 w-75"
+                                    placeholder="What is your email?">
+                            </div>
+
+                            <div class="form-group w-75 d-flex  ">
+                                <select name="" id="" class="p-3 mr-3">
+                                    <option class="font-weight-bold" value="1">1</option>
+                                    <option class="font-weight-bold" value="2">2</option>
+                                    <option class="font-weight-bold" value="3">3</option>
+                                    <option class="font-weight-bold" value="4">4</option>
+
+                                    <option class="font-weight-bold" value="How many bedrooms" selected hidden>How many
+                                        bedrooms</option>
+                                </select>
+                                <select name="" id="" class="p-3">
+                                    <option class="font-weight-bold" value="1" class="font-weight-bold">1</option>
+                                    <option class="font-weight-bold" value="2">2</option>
+                                    <option class="font-weight-bold" value="3">3</option>
+                                    <option class="font-weight-bold" value="4">4</option>
+
+                                    <option value="" class="font-weight-bold" selected hidden>How many bathrooms
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="form-group_submit d-flex ">
+                                <input required type="password"
+                                    class="form-control font-weight-bold w-25 mr-4 py-4 mb-3" name="" id=""
+                                    placeholder="Create a password">
+                                <button class="btn py-2  font-weight-bold text-capitalize" type="submit"
+                                    data-toggle="modal" data-target="#exampleModal"> Find Your
+                                    home !</button>
+                            </div>
+                        </form>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <main>
+
+                        <h1 class="font-weight-bold">Choose Your Style .</h1>
+                        <img src="images/Barn.png" class="img-fluid w-50" alt="" srcset="">
+                        <button class="btn py-2  font-weight-bold text-capitalize " type="submit" data-toggle="modal"
+                            data-target="#exampleModal"> Find Your
+                            home !</button>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              End Header                                 -->
+    <!-- ----------------------------------------------------------------------- -->
+
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               Start Modal                               -->
+    <!-- ----------------------------------------------------------------------- -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title font-weight-bold " id="exampleModalLabel">Ziri</h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h1>Thank You For Registering!</h1>
+                    <h2>We Are Finding Your Home...</h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               End Modal                                  -->
+    <!-- ----------------------------------------------------------------------- -->
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
