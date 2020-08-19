@@ -194,7 +194,7 @@ header main h1::after {
 /* -------------------------------------------------------------------------- */
 /*                                 Start_Media                                */
 /* -------------------------------------------------------------------------- */
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   header main button {
     display: none !important;
   }
