@@ -17,8 +17,6 @@ html {
   @media only screen and (max-width: 69.75em) {
     font-size: 50%;
   }
-
-
 }
 
 ul {
@@ -112,9 +110,7 @@ header article form select option {
 
 header article form select option {
   background: #fff !important;
-
 }
-
 
 /* -------------------------------------------------------------------------- */
 /*                                Start article                               */
@@ -122,9 +118,11 @@ header article form select option {
 
 header article form .form-group_submit button {
   background: rgb(235, 98, 130);
-  background: linear-gradient(180deg,
-      rgba(235, 98, 130, 1) 50%,
-      rgba(250, 144, 144, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(235, 98, 130, 1) 50%,
+    rgba(250, 144, 144, 1) 100%
+  );
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
@@ -162,7 +160,11 @@ header main h1::after {
 /* -------------------------------------------------------------------------- */
 .modal .modal-content {
   background: rgb(221, 236, 209);
-  background: linear-gradient(171deg, rgba(221, 236, 209, 1) 0%, rgba(253, 233, 197, 1) 97%);
+  background: linear-gradient(
+    171deg,
+    rgba(221, 236, 209, 1) 0%,
+    rgba(253, 233, 197, 1) 97%
+  );
 }
 
 .modal .modal-content .modal-header h1,
@@ -189,9 +191,6 @@ header main h1::after {
 /*                                 End Modal                                  */
 /* -------------------------------------------------------------------------- */
 
-
-
-
 /* -------------------------------------------------------------------------- */
 /*                                 Start_Media                                */
 /* -------------------------------------------------------------------------- */
@@ -199,7 +198,6 @@ header main h1::after {
   header main button {
     display: none !important;
   }
-
 }
 
 @media (max-width: 1100px) {
@@ -233,14 +231,11 @@ header main h1::after {
 
   header article form .form-group_submit button {
     width: 40%;
-
   }
 
   header main button {
     display: none !important;
   }
-
-
 }
 
 @media (max-width: 992px) {
@@ -248,11 +243,8 @@ header main h1::after {
     font-size: 2.5rem;
   }
 
-
-
   header article form .form-group_submit button {
     font-size: 13px;
-
   }
 
   header main h1 {
@@ -262,10 +254,7 @@ header main h1::after {
   header main button {
     display: none !important;
   }
-
 }
-
-
 
 @media (max-width: 768px) {
   body {
@@ -284,8 +273,6 @@ header main h1::after {
   header article form .form-group:nth-of-type(2) {
     margin-left: 7% !important;
     width: 68% !important;
-
-
   }
 
   header article form .form-group_submit {
@@ -316,20 +303,21 @@ header main h1::after {
 
   header main h1::after {
     right: 30%;
-
   }
 
   header main button {
     display: flex !important;
     background: rgb(235, 98, 130);
-    background: linear-gradient(180deg,
-        rgba(235, 98, 130, 1) 50%,
-        rgba(250, 144, 144, 1) 100%);
+    background: linear-gradient(
+      180deg,
+      rgba(235, 98, 130, 1) 50%,
+      rgba(250, 144, 144, 1) 100%
+    );
     border-radius: 5px;
     color: #fff !important;
     font-size: 16px;
     transition: all 0.5s;
-    margin: .5rem 0;
+    margin: 0.5rem 0;
   }
 
   header main button:hover {
@@ -338,24 +326,15 @@ header main h1::after {
 }
 
 @media (max-width: 600px) {
-
-
   header article form .form-group:nth-of-type(2) {
     margin-left: 12% !important;
     width: 74% !important;
-
-
   }
 
   header article form select {
-    font-size: .89rem;
+    font-size: 0.89rem;
   }
-
-
 }
-
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                                 End_Media                                  */
